@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -5,7 +7,7 @@
   background-color: black;
   background-position: center;
   background-size: cover;
-  max-height: 130px;
+  max-height: 165px;
   height: 100vh;
   position: fixed;
   top: 0px;
@@ -13,14 +15,32 @@
   width: 100%;
   z-index: 1;
 }
+.header.shrink {
+  height: 80px; /* Adjust height when shrunk */
+  /* transition: height 0.3s ease-in-out;  */
+}
+.header.shrink .header__logo-image {
+  width: 100px; /* Adjust logo size when shrunk */
+  transition: width 0.5s ease, height 0.5s ease; /* Add transition effect */
+}
+.header.shrink .header__nav {
+  font-size: 20px; /* Adjust font size when shrunk */
+  transition: font-size 0.5s ease; /* Add transition effect */
+}
+.header.shrink .header__links:hover {
+  box-shadow: inset 200px 0 0 0 white;
+}
+.header.shrink .header__links {
+  transition: color 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for color and box-shadow when shrinking */
+}
+
 .header__logo {
   position: fixed;
   left: 0px;
   color: azure;
 }
 .header__logo-image {
-  height: 150px;
-  width: 150px;
+  width: 200px;
 }
 .header__logo-image:hover {
   cursor: pointer;
@@ -28,9 +48,10 @@
 }
 .header__nav {
   display: flex;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Playfair-Display", sans-serif;
   font-weight: 300;
   z-index: 1;
+  font-size: 40px;
 }
 
 .header__social {
@@ -53,7 +74,7 @@ li .header__links {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 30px;
+  padding: 14px 55px;
   text-decoration: none;
 }
 .header__links {
@@ -64,7 +85,7 @@ li .header__links {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .header__links:hover {
-  box-shadow: inset 150px 0 0 0 white;
+  box-shadow: inset 300px 0 0 0 white;
   color: black;
 }
 .linkedin__logo {

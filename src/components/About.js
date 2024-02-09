@@ -1,5 +1,9 @@
 import React from "react";
 import "../blocks/About.css";
+import osu from "../images/osu-logo.png";
+import physiq from "../images/physiq.png";
+import seahawks from "../images/seahawks-logo.png";
+import fenway from "../images/fenway.png";
 
 const About = () => {
   return (
@@ -18,9 +22,27 @@ const About = () => {
           the ability to be creative as well as the consistent challenges that I
           found when I discovered coding. Thats when I knew, this is what I
           wanted to do. After having already gone through the University route I
-          decided taking a bootcamp would be a better option for myself. Here
-          are some projects that highlight what I have learned:
+          decided taking a bootcamp would be a better option for myself. I am
+          ready to help be on the forefront of innovation!
         </p>
+      </div>
+      <div className="about__images">
+        <img
+          src={osu}
+          alt="Oregon State University"
+          className="about__image-osu"
+        />
+        <img
+          src={physiq}
+          alt="Physiq Fitness"
+          className="about__image-physiq"
+        />
+        <img
+          src={seahawks}
+          alt="Seattle Seahawks"
+          className="about__image-seahawks"
+        />
+        <img src={fenway} alt="Fenway Park" className="about__image-fenway" />
       </div>
 
       {/* <div class="things-about">

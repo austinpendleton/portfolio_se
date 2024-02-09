@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Urbanist");
 
 .about {
-  max-height: 700px;
+  max-height: 1000px;
   height: 100vh;
+  background-color: darkgray;
+  margin-top: 150px;
 }
 .about__title {
   display: flex;
@@ -18,7 +20,7 @@
   font-family: "Playfair-Display", sans-serif;
   font-size: 70px;
   font-weight: 900;
-  color: coral;
+  color: black;
   font-style: italic;
 }
 .about__paragraph-text {
@@ -50,6 +52,27 @@
   position: absolute;
   height: 150px;
   /* color: #89323b; */
+}
+.about__images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.about__image-physiq {
+  height: 250px;
+  width: 250px;
+}
+.about__image-osu {
+  height: 150px;
+  width: 350px;
+}
+.about__image-seahawks {
+  height: 150px;
+  width: 350px;
+}
+.about__image-fenway {
+  height: 250px;
+  width: 250px;
 }
 
 /* Arrow */
