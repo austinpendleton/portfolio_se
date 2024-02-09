@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+form {
+  display: grid;
+  flex-direction: row;
+}
+.contact__form {
+  max-height: 550px;
+  height: 100vh;
+}
+.form__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+.form__container {
+  display: flex;
+  justify-content: center;
+}
+.form__label {
+  display: block;
+  text-align: center;
+  margin: 0 0 2vh 0;
+}
+.form__input {
+  display: block;
+  width: 300px;
+  height: 30px;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin-bottom: 25px;
+  border-color: black;
+  border-width: 3px;
+}
+.form__textarea {
+  height: 15vh;
+  width: 730px;
+  border-color: black;
+  border-width: 3px;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin-bottom: 25px;
+}
+
+.form__top-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 100px;
+}
+.form__bottom-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 100px;
+}
+.email__button {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  font-family: "Urbanist", sans-serif;
+}
+.email__button:hover {
+  box-shadow: inset 150px 0 0 0 white;
+  color: black;
+  cursor: pointer;
+}
+input::placeholder {
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+textarea::placeholder {
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
+  color: black;
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+
+.about {
+  max-height: 700px;
+  height: 100vh;
+}
+.about__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.about__paragraph {
+  display: flex;
+  justify-content: center;
+}
+.about__title-text {
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  color: coral;
+  font-style: italic;
+}
+.about__paragraph-text {
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.things-about > .content-about {
+  float: left;
+  width: 20%;
+  height: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.things-about > .content-about h1 {
+  /* font-family: "Arial", sans-serif;
+    text-transform: uppercase; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150px;
+  /* color: #89323b; */
+}
+
+/* Arrow */
+
+.arrow-about {
+  position: absolute;
+  right: -1000px;
+  width: 100px;
+  transform: scaleX(-1);
+}
+
+.arrow-about .curve-about {
+  border: 6px solid black;
+  border-color: transparent transparent transparent black;
+  height: 360px;
+  width: 1200px;
+  border-radius: 230px 0 0 150px;
+}
+
+.arrow-about .point-about {
+  position: absolute;
+  left: 35px;
+  top: 315px;
+}
+
+.arrow-about .point-about:before,
+.arrow-about .point-about:after {
+  border: 5px solid black;
+  height: 25px;
+  content: "";
+  position: absolute;
+}
+
+.arrow-about .point-about:before {
+  top: -11px;
+  left: -11px;
+  transform: rotate(-74deg);
+  -webkit-transform: rotate(-74deg);
+  -moz-transform: rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+}
+
+.arrow-about .point-about:after {
+  top: -20px;
+  left: 5px;
+  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+}

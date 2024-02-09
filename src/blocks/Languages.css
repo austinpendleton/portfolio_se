@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+
+.languages {
+  background-color: slategray;
+  background-position: center;
+  background-size: cover;
+  max-height: 660px;
+  height: 100vh;
+}
+.languages__title {
+  display: flex;
+  justify-content: center;
+}
+.languages__title-text {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.languages__paragraph {
+  display: flex;
+  justify-content: center;
+}
+.languages__paragraph-text {
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.languages__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 90px;
+  row-gap: 30px;
+  padding-top: 40px;
+}
+.languages__images-storybook {
+  height: 96px;
+  width: 96px;
+}
+.languages__images:hover {
+  transform: scale(1.5);
+}
+.languages__images {
+  transition: transform 0.5s;
+}
