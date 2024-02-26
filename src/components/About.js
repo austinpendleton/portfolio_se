@@ -26,7 +26,7 @@ const About = () => {
           ready to help be on the forefront of innovation!
         </p>
       </div>
-      <div className="about__images">
+      {/* <div className="about__images">
         <img
           src={osu}
           alt="Oregon State University"
@@ -43,7 +43,7 @@ const About = () => {
           className="about__image-seahawks"
         />
         <img src={fenway} alt="Fenway Park" className="about__image-fenway" />
-      </div>
+      </div> */}
 
       {/* <div class="things-about">
         <div class="content-about">

@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 .projects {
-  max-height: 1000px;
-  height: 100vh;
+  max-height: 2000px;
+  height: 200vh;
   background-color: darkgray;
   background-position: center;
   background-size: cover;
-  margin-top: 150px;
 }
 .projects__title {
   display: flex;
@@ -24,21 +23,47 @@
   width: 400px;
   display: flex;
   position: absolute;
-  top: 450px;
+  top: 1815px;
   left: 50px;
+}
+.golf__container {
+  width: 400px;
+  display: flex;
+  position: absolute;
+  top: 2405px;
+  left: 773px;
 }
 .wtwr__image {
   height: 350px;
-  box-shadow: -20px -20px 20px black;
+  box-shadow: -20px -20px 20px steelblue;
+  margin-top: 50px;
+}
+.golf__image {
+  height: 350px;
+  box-shadow: 20px -20px 20px green;
   margin-top: 50px;
 }
 .projects__wtwr-paragraph {
+  width: 750px;
+}
+.projects__golf-paragraph {
   width: 750px;
 }
 .projects__wtwr-paragraph-text {
   display: flex;
   position: relative;
   left: 900px;
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: black;
+  max-width: 440px;
+}
+.projects__golf-paragraph-text {
+  display: flex;
+  position: relative;
+  left: 110px;
+  top: 110px;
   font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
   line-height: 50px;
@@ -57,6 +82,7 @@
   width: 400px;
   font-style: italic;
 }
+
 .wtwr__list {
   display: flex;
   position: relative;

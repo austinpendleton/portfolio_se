@@ -3,9 +3,7 @@
 
 .about {
   max-height: 1000px;
-  height: 100vh;
-  background-color: darkgray;
-  margin-top: 150px;
+  height: 60vh;
 }
 .about__title {
   display: flex;
