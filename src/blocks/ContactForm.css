@@ -1,19 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-@import url("https://fonts.googleapis.com/css?family=Urbanist");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
 form {
   display: grid;
   flex-direction: row;
 }
 .contact__form {
-  max-height: 550px;
+  max-height: 600px;
   height: 100vh;
+  background-color: darkgray;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 .form__title {
   display: flex;
   justify-content: center;
-  font-family: "Permanent Marker", sans-serif;
-  font-size: 50px;
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 70px;
   font-weight: 900;
+  font-style: italic;
 }
 .form__container {
   display: flex;
@@ -63,7 +67,7 @@ form {
   color: white;
   background-color: black;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Playfair-Display", sans-serif;
 }
 .email__button:hover {
   box-shadow: inset 150px 0 0 0 white;
@@ -71,12 +75,22 @@ form {
   cursor: pointer;
 }
 input::placeholder {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
   color: black;
 }
 textarea::placeholder {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+input {
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+textarea {
+  font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
   color: black;
 }
