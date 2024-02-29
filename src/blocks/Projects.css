@@ -100,3 +100,18 @@
 .wtwr__list-item {
   margin-right: 20px;
 }
+.golf__list {
+  display: flex;
+  position: relative;
+  left: 110px;
+  top: 110px;
+  font-family: "Playfair-Display", sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: black;
+  max-width: 440px;
+  list-style-type: square;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
