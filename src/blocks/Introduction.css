@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Urbanist");
 
 .introduction {
-  background-color: darkgray;
+  background-color: #262626;
   background-position: center;
   background-size: cover;
   margin-top: 125px;
@@ -36,17 +36,17 @@
 .name__text {
   font-family: "Playfair-Display", sans-serif;
   font-size: 100px;
-  font-style: italic;
+
   font-weight: 900;
   z-index: 0;
-  color: black;
+  color: white;
 }
 
 .title__text {
   font-family: "Playfair-Display", sans-serif;
   font-size: 50px;
   font-style: italic;
-  color: black;
+  color: #ffeb99;
   overflow: hidden; /* Ensures the text doesn't overflow */
 
   white-space: nowrap; /* Prevents the text from wrapping */

@@ -4,11 +4,12 @@
 .about {
   max-height: 1000px;
   height: 60vh;
+  background-color: #262626;
 }
+
 .about__title {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
 }
 .about__paragraph {
   display: flex;
@@ -18,8 +19,7 @@
   font-family: "Playfair-Display", sans-serif;
   font-size: 70px;
   font-weight: 900;
-  color: black;
-  font-style: italic;
+  color: #ffeb99;
 }
 .about__paragraph-text {
   font-family: "Playfair-Display", sans-serif;
@@ -27,6 +27,7 @@
   line-height: 50px;
   margin-right: 60px;
   margin-left: 60px;
+  color: white;
 }
 
 .things-about > .content-about {

@@ -7,11 +7,13 @@
   background-position: center;
   background-size: cover;
 }
+
 .projects__title {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
+
 .projects__title-text {
   font-family: "Playfair-Display", sans-serif;
   font-size: 70px;
@@ -19,99 +21,59 @@
   color: black;
   font-style: italic;
 }
-.wtwr__container {
-  width: 400px;
+
+.projects__container {
   display: flex;
-  position: absolute;
-  top: 1815px;
-  left: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust this value to change the spacing between columns */
 }
+
+.projects__wtwr-container,
+.projects__golf-container {
+  width: 45%; /* Adjust this value to change the width of each project container */
+  margin-bottom: 20px; /* Adjust this value to change the spacing between rows */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wtwr__container,
 .golf__container {
-  width: 400px;
+  width: 100%;
   display: flex;
-  position: absolute;
-  top: 2405px;
-  left: 773px;
+  flex-direction: column;
+  align-items: center;
 }
-.wtwr__image {
-  height: 350px;
-  box-shadow: -20px -20px 20px steelblue;
-  margin-top: 50px;
-}
+
+.wtwr__image,
 .golf__image {
-  height: 350px;
-  box-shadow: 20px -20px 20px green;
-  margin-top: 50px;
+  height: 180px; /* Adjust this value as needed */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust the shadow as needed */
+  margin-bottom: 20px; /* Adjust this value to change the space between image and text */
 }
-.projects__wtwr-paragraph {
-  width: 750px;
-}
-.projects__golf-paragraph {
-  width: 750px;
-}
-.projects__wtwr-paragraph-text {
-  display: flex;
-  position: relative;
-  left: 900px;
-  font-family: "Playfair-Display", sans-serif;
-  font-size: 25px;
-  line-height: 50px;
-  color: black;
-  max-width: 440px;
-}
-.projects__golf-paragraph-text {
-  display: flex;
-  position: relative;
-  left: 110px;
-  top: 110px;
-  font-family: "Playfair-Display", sans-serif;
-  font-size: 25px;
-  line-height: 50px;
-  color: black;
-  max-width: 440px;
-}
+
 .image__title {
   font-family: "Playfair-Display", sans-serif;
   font-size: 40px;
   font-weight: 900;
   color: black;
-  display: flex;
-  position: absolute;
-  top: -100px;
-  left: 178px;
-  width: 400px;
   font-style: italic;
+  margin-bottom: 20px; /* Adjust this value to change the space between image title and image */
 }
 
-.wtwr__list {
+.projects__wtwr-paragraph,
+.projects__golf-paragraph {
+  width: 100%;
   display: flex;
-  position: relative;
-  left: 900px;
+  justify-content: center;
+}
+
+.projects__wtwr-paragraph-text,
+.projects__golf-paragraph-text {
   font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
-  line-height: 50px;
+  line-height: 1.5;
   color: black;
-  max-width: 440px;
-  list-style-type: square;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.wtwr__list-item {
-  margin-right: 20px;
-}
-.golf__list {
-  display: flex;
-  position: relative;
-  left: 110px;
-  top: 110px;
-  font-family: "Playfair-Display", sans-serif;
-  font-size: 25px;
-  line-height: 50px;
-  color: black;
-  max-width: 440px;
-  list-style-type: square;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
+  max-width: 750px;
+  text-align: center;
 }
