@@ -48,28 +48,23 @@ const Header = () => {
         </Link>
       </div>
 
-      <ul className="header__nav">
-        <li>
-          <Link to="/about" className="header__links">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/projects" className="header__links" href="">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to="/languages" className="header__links" href="">
-            Languages
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" className="header__links" href="">
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <div className="header__nav">
+        <Link to="/about" className="header__links">
+          About
+        </Link>
+
+        <Link to="/projects" className="header__links" href="">
+          Projects
+        </Link>
+
+        <Link to="/languages" className="header__links" href="">
+          Languages
+        </Link>
+
+        <Link to="contact" className="header__links" href="">
+          Contact
+        </Link>
+      </div>
 
       <div className="header__social">
         <a

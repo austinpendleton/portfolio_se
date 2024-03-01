@@ -1,5 +1,6 @@
 import wtwr from "../images/wtwr-project.png";
 import golf from "../images/golf-app.png";
+import slopopedia from "../images/slopopedia.png";
 import "../blocks/Projects.css";
 
 const Projects = () => {
@@ -46,6 +47,26 @@ const Projects = () => {
               <li className="golf__list-item">CSS</li>
               <li className="golf__list-item">Express</li>
               <li className="golf__list-item">Google Cloud</li>
+            </ul>
+          </div>
+        </div>
+        <div className="projects__slop-container">
+          <div className="slop__container">
+            <h1 className="image__title">Slopopedia</h1>
+            <img className="slop__image" src={slopopedia} alt="Slopopedia" />
+          </div>
+          <div className="projects__slop-paragraph">
+            <p className="projects__slop-paragraph-text">
+              An app to help you decide what club in your bag to use while out
+              golfing.
+            </p>
+            <ul className="slop__list">
+              <li className="slop__list-item">React</li>
+              <li className="slop__list-item">JavaScript</li>
+              <li className="slop__list-item">HTML</li>
+              <li className="slop__list-item">CSS</li>
+              <li className="slop__list-item">Express</li>
+              <li className="slop__list-item">Google Cloud</li>
             </ul>
           </div>
         </div>

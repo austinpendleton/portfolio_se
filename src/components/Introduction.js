@@ -16,7 +16,7 @@ const Introduction = () => {
         />
       </div>
       <div className="title__wrapper">
-        <h2 className="title__text">Web Developer</h2>
+        <h2 className="title__text">Software Engineer</h2>
       </div>
 
       {/* <div class="things">
