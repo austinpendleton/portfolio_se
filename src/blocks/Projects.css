@@ -2,8 +2,8 @@
 
 .projects {
   max-height: 2000px;
-  height: 200vh;
-  background-color: #262626;
+  height: 160vh;
+  background-color: #1a1a1a;
   background-position: center;
   background-size: cover;
 }
@@ -71,8 +71,10 @@
   display: flex;
   justify-content: center;
   background-color: white;
+  opacity: 0.9;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 50px;
 }
 .projects__golf-paragraph {
   box-shadow: 0px 0px 10px 20px rgb(6 253 0 / 50%);

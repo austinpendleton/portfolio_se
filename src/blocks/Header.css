@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #262626;
+  background-color: #1a1a1a;
   background-position: center;
   background-size: cover;
   max-height: 165px;
@@ -64,7 +64,8 @@
   color: white;
   text-decoration: none;
   padding: 14px 55px;
-  transition: color 0.3s ease-in-out;
+
+  transition: color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .header__links:hover {
@@ -75,6 +76,8 @@
   position: fixed;
   right: 0px;
   padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .linkedin__logo,
@@ -88,7 +91,8 @@
 
 .linkedin__logo:hover,
 .github__logo:hover,
-.instagram__logo:hover {
+.instagram__logo:hover,
+.resume__button:hover {
   cursor: pointer;
   opacity: 0.6;
 }
@@ -96,4 +100,13 @@
 .header__links:hover {
   box-shadow: inset 300px 0 0 0 white;
   color: black;
+}
+.resume__button {
+  width: 80px;
+  height: 50px;
+  position: relative;
+  right: 22px;
+  background-color: #ffeb99;
+  border-radius: 10px;
+  font-family: "Playfair-Display", sans-serif;
 }

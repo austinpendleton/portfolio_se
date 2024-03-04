@@ -88,6 +88,7 @@ const Header = () => {
         >
           <img className="instagram__logo" alt="Instagram" src={instagram} />
         </a>
+        <button className="resume__button">Download Resume</button>
       </div>
     </header>
   );

@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 .languages {
+  background-color: #1a1a1a;
   background-position: center;
   background-size: cover;
-  max-height: 660px;
-  height: 100vh;
+  max-height: 2000px;
+  height: 110vh;
   padding-bottom: 50px;
 }
 .languages__title {
@@ -13,10 +14,10 @@
 }
 .languages__title-text {
   font-family: "Playfair-Display", sans-serif;
-  font-size: 70px;
-  font-weight: 900;
-  color: black;
-  font-style: italic;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffeb99;
+  margin-left: 80px;
 }
 .languages__paragraph {
   display: flex;

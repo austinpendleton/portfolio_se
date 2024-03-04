@@ -23,14 +23,16 @@ const Languages = () => {
   return (
     <section className="languages">
       <div className="languages__title">
-        <h1 className="languages__title-text">Languages</h1>
+        <h1 className="languages__title-text">
+          These are the programs I have used and am comfortable using...
+        </h1>
       </div>
-      <div className="languages__paragraph">
+      {/* <div className="languages__paragraph">
         <p className="languages__paragraph-text">
           These are some of the coding languages and programs I feel comfortable
           with.
         </p>
-      </div>
+      </div> */}
       <div className="languages__list">
         <img src={html} alt="HTML" className="languages__images" />
 

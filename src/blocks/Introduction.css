@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Urbanist");
 
 .introduction {
-  background-color: #262626;
+  background-color: #1a1a1a;
   background-position: center;
   background-size: cover;
   margin-top: 125px;
 
-  max-height: 700px;
-  height: 100vh;
+  max-height: 2000px;
+  height: 140vh;
 }
 .introduction__image {
   max-height: 700px;
