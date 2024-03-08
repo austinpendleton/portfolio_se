@@ -57,16 +57,15 @@ const Projects = () => {
           </div>
           <div className="projects__slop-paragraph">
             <p className="projects__slop-paragraph-text">
-              An app to help you decide what club in your bag to use while out
-              golfing.
+              Contributed to the full software development lifecycle in a remote
+              setting
             </p>
             <ul className="slop__list">
               <li className="slop__list-item">React</li>
               <li className="slop__list-item">JavaScript</li>
-              <li className="slop__list-item">HTML</li>
-              <li className="slop__list-item">CSS</li>
-              <li className="slop__list-item">Express</li>
-              <li className="slop__list-item">Google Cloud</li>
+              <li className="slop__list-item">Tailwind</li>
+              <li className="slop__list-item">Storybook</li>
+              <li className="slop__list-item">Jira</li>
             </ul>
           </div>
         </div>

@@ -99,10 +99,14 @@
 .wtwr__list,
 .golf__list,
 .slop__list {
-  list-style: none; /* Remove default list styles */
+  list-style: disc; /* Remove default list styles */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   text-align: center; /* Center the list items */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wtwr__list-item,
@@ -111,5 +115,7 @@
   font-family: "Playfair-Display", sans-serif;
   font-size: 20px;
   color: black;
+  margin-bottom: 20px;
+  width: max-content;
   /* Add any additional styling you need for list items */
 }

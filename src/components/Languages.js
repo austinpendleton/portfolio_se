@@ -24,7 +24,7 @@ const Languages = () => {
     <section className="languages">
       <div className="languages__title">
         <h1 className="languages__title-text">
-          These are the programs I have used and am comfortable using...
+          These are the programs I am comfortable using...
         </h1>
       </div>
       {/* <div className="languages__paragraph">
