@@ -110,3 +110,56 @@
   border-radius: 10px;
   font-family: "Playfair-Display", sans-serif;
 }
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .header {
+    max-height: initial;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .header__logo {
+    position: relative;
+    bottom: -18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .header__logo-image {
+    width: 250px; /* Adjust logo size for mobile */
+  }
+
+  .header__nav {
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__links {
+    padding: 10px 25px; /* Adjust padding for mobile */
+  }
+
+  .header__social {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 480px;
+  }
+
+  .resume__button {
+    padding: 0px 0px; /* Adjust padding for mobile */
+    margin-right: 0; /* Reset margin */
+    width: 70px;
+  }
+  .resume__button-container {
+    padding-left: 80px;
+  }
+}
+
+/* Other styles remain unchanged */
