@@ -57,8 +57,8 @@ const Projects = () => {
           </div>
           <div className="projects__slop-paragraph">
             <p className="projects__slop-paragraph-text">
-              Contributed to the full software development lifecycle in a remote
-              setting
+              A Wikipedia-style app with some networking features for low
+              budget, poorly rated films which are often overlooked.
             </p>
             <ul className="slop__list">
               <li className="slop__list-item">React</li>
