@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="contact__form">
+    <section className="contact__form" id="contact">
       <h1 className="form__title">Contact Me!</h1>
       <div className="form__container">
         <form ref={form} onSubmit={sendEmail} id="contact-form">

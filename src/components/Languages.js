@@ -21,7 +21,7 @@ import "../blocks/Languages.css";
 
 const Languages = () => {
   return (
-    <section className="languages">
+    <section className="languages" id="skills">
       <div className="languages__title">
         <h1 className="languages__title-text">Skills</h1>
       </div>

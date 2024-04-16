@@ -7,7 +7,7 @@ import seahawks from "../images/seahawks-logo.png";
 import fenway from "../images/fenway-edited.jpeg";
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__title ">
         <h1 className="about__title-text">About Me</h1>
       </div>

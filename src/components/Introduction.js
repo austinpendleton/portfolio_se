@@ -4,7 +4,7 @@ import nobackgroundpic from "../images/nobackgroundpic.png";
 
 const Introduction = () => {
   return (
-    <section className="introduction">
+    <section className="introduction" id="intro">
       <div className="name__wrapper">
         <h1 className="name__text">Austin Pendleton</h1>
       </div>

@@ -42,28 +42,26 @@ const Header = () => {
 
   return (
     <header className={`header ${shrink ? "shrink" : ""}`}>
-      <div className="header__logo">
-        <Link to="/">
-          <img className="header__logo-image" src={aplogo} alt="AP" />
-        </Link>
-      </div>
+      <a className="header__logo" href="#intro">
+        <img className="header__logo-image" src={aplogo} alt="AP" />
+      </a>
 
       <div className="header__nav">
-        <Link to="/about" className="header__links">
+        <a href="#about" className="header__links">
           About
-        </Link>
+        </a>
 
-        <Link to="/projects" className="header__links" href="">
+        <a href="#projects" className="header__links">
           Projects
-        </Link>
+        </a>
 
-        <Link to="/languages" className="header__links" href="">
-          Languages
-        </Link>
+        <a className="header__links" href="#skills">
+          Skills
+        </a>
 
-        <Link to="contact" className="header__links" href="">
+        <a to="contact" className="header__links" href="#contact">
           Contact
-        </Link>
+        </a>
       </div>
 
       <div className="header__social">

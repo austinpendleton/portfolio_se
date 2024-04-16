@@ -5,7 +5,7 @@ import "../blocks/Projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <div className="projects__title">
         <h1 className="projects__title-text">Projects</h1>
       </div>
