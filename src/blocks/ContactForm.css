@@ -7,7 +7,7 @@ form {
 .contact__form {
   max-height: 600px;
   height: 100vh;
-  background-color: #1a1a1a;
+  background-color: black;
   padding-top: 10px;
   padding-bottom: 50px;
 }
@@ -34,14 +34,11 @@ form {
   height: 30px;
   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
   margin-bottom: 25px;
-  border-color: #ffeb99;
-  border-width: 3px;
 }
 .form__textarea {
   height: 15vh;
   width: 730px;
-  border-color: #ffeb99;
-  border-width: 3px;
+
   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
   margin-bottom: 25px;
 }
@@ -64,14 +61,14 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  background-color: #ffeb99;
+  color: white;
+  background-color: black;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   font-family: "Playfair-Display", sans-serif;
 }
 .email__button:hover {
-  box-shadow: inset 150px 0 0 0 black;
-  color: #ffeb99;
+  box-shadow: inset 150px 0 0 0 white;
+  color: black;
   cursor: pointer;
 }
 input::placeholder {

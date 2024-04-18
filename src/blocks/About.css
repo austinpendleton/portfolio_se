@@ -4,7 +4,7 @@
 .about {
   max-height: 2000px;
   height: 120vh;
-  background-color: #1a1a1a;
+  background-color: black;
 }
 .about__container {
   display: flex;

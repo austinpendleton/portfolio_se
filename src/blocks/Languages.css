@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 .languages {
-  background-color: #1a1a1a;
+  background-color: black;
   background-position: center;
   background-size: cover;
   max-height: 2000px;
@@ -46,4 +46,6 @@
 }
 .languages__images {
   transition: transform 0.5s;
+  height: 96px;
+  width: 96px;
 }

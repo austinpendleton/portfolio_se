@@ -9,11 +9,11 @@ const Introduction = () => {
         <h1 className="name__text">Austin Pendleton</h1>
       </div>
       <div className="introduction__picture">
-        <img
+        {/* <img
           src={nobackgroundpic}
           alt="Myself"
           className="introduction__image"
-        />
+        /> */}
       </div>
       <div className="title__wrapper">
         <h2 className="title__text">Software Engineer</h2>
