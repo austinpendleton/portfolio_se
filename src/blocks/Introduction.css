@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Urbanist");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 .introduction {
   background-color: black;
@@ -34,7 +35,7 @@
   top: 400px;
 }
 .name__text {
-  font-family: "Playfair-Display", sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 100px;
 
   font-weight: 900;
@@ -141,4 +142,26 @@
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
   -ms-transform: rotate(12deg);
+}
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .name__wrapper {
+    top: 150px; /* Adjust positioning for smaller screens */
+    margin-left: 0; /* Remove left margin for centering */
+    text-align: center; /* Center the text */
+  }
+
+  .title__wrapper {
+    top: 300px; /* Adjust positioning for smaller screens */
+    margin-left: 0; /* Remove left margin for centering */
+    text-align: center; /* Center the text */
+  }
+
+  .name__text {
+    font-size: 60px; /* Adjust font size for smaller screens */
+  }
+
+  .title__text {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
 }

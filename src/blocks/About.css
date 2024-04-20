@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Urbanist");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 .about {
   max-height: 2000px;
@@ -21,7 +22,7 @@
   flex: 1;
 }
 .about__title-text {
-  font-family: "Playfair-Display", sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 70px;
   font-weight: 900;
   color: #ffeb99;
@@ -63,4 +64,30 @@
   flex-shrink: 0;
   margin-right: 20px;
   margin-left: 150px;
+}
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .about__title-text {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  .about__paragraph-text {
+    font-size: 18px; /* Adjust font size for smaller screens */
+    line-height: 30px; /* Adjust line height for smaller screens */
+    margin-right: 20px; /* Adjust margins for smaller screens */
+    margin-left: 20px; /* Adjust margins for smaller screens */
+  }
+
+  .about__container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .about__image {
+    height: auto; /* Allow image to scale with width */
+    width: 100%; /* Occupy full width of container */
+    margin-right: 0; /* Remove right margin on smaller screens */
+    margin-left: 0; /* Remove left margin on smaller screens */
+    margin-bottom: 20px; /* Add some space below the image */
+    border-radius: 0; /* Remove border-radius */
+  }
 }
