@@ -7,9 +7,9 @@
   background-color: black;
   background-position: center;
   background-size: cover;
-  max-height: 165px;
+  max-height: 140px;
   height: 100vh;
-  position: relative;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -22,7 +22,7 @@
   color: azure;
 }
 .header__logo-image {
-  width: 200px;
+  width: 150px;
 }
 .header__logo-image:hover {
   cursor: pointer;
