@@ -15,6 +15,7 @@ const Projects = () => {
             <h1 className="image__title">What To Wear</h1>
             <img className="wtwr__image" src={wtwr} alt="WTWR app" />
           </div>
+          <p className="repo__link">Link to Repo</p>
           <div className="projects__wtwr-paragraph">
             <p className="projects__wtwr-paragraph-text">
               An app to help you decide what to wear based on current weather
@@ -34,6 +35,7 @@ const Projects = () => {
           <div className="golf__container">
             <h1 className="image__title">I Can Hit That Far</h1>
             <img className="golf__image" src={golf} alt="golf app" />
+            <p className="repo__link">Link to Repo</p>
           </div>
           <div className="projects__golf-paragraph">
             <p className="projects__golf-paragraph-text">
@@ -54,6 +56,7 @@ const Projects = () => {
           <div className="slop__container">
             <h1 className="image__title">Slopopedia</h1>
             <img className="slop__image" src={slopopedia} alt="Slopopedia" />
+            <p className="repo__link">Link to Repo</p>
           </div>
           <div className="projects__slop-paragraph">
             <p className="projects__slop-paragraph-text">
