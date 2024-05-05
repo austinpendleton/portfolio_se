@@ -145,6 +145,10 @@
 }
 /* Example media query for smaller screens */
 @media screen and (max-width: 768px) {
+  .introduction {
+    margin-top: 0; /* Remove top margin for smaller screens */
+  }
+
   .name__wrapper {
     top: 150px; /* Adjust positioning for smaller screens */
     margin-left: 0; /* Remove left margin for centering */

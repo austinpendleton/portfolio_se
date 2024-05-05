@@ -100,18 +100,14 @@
     position: relative;
     bottom: -18px;
     margin-bottom: 20px;
-    margin-top: 20px;
   }
 
   .header__logo-image {
-    width: 250px; /* Adjust logo size for mobile */
+    width: 120px; /* Adjust logo size for mobile */
   }
 
   .header__nav {
-    font-size: 20px;
-    margin-bottom: 20px;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
 
   .header__links {
@@ -124,7 +120,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    bottom: 480px;
+    bottom: 100px;
   }
 
   .resume__button {
@@ -133,7 +129,7 @@
     width: 70px;
   }
   .resume__button-container {
-    padding-left: 80px;
+    padding-left: 280px;
   }
 }
 
