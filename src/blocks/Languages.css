@@ -49,3 +49,36 @@
   height: 96px;
   width: 96px;
 }
+
+@media only screen and (max-width: 768px) {
+  .languages__title-text {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .languages__paragraph {
+    margin-top: 20px;
+  }
+
+  .languages__paragraph-text {
+    font-size: 20px;
+  }
+
+  .languages__list {
+    justify-content: space-around;
+    padding: 20px;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+
+  .languages__images {
+    height: 64px;
+    width: 64px;
+  }
+
+  .languages__images-storybook {
+    height: 64px;
+    width: 64px;
+  }
+}

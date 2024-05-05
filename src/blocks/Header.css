@@ -9,7 +9,7 @@
   background-size: cover;
   max-height: 140px;
   height: 100vh;
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 0px;
   width: 100%;
