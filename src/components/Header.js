@@ -53,7 +53,7 @@ const Header = () => {
           <img className="github__logo" alt="GitHub" src={github} />
         </a>
         <div className="resume__button-container">
-          <button className="resume__button">Download Resume</button>
+          <button className="resume__button">Resume</button>
         </div>
       </div>
     </header>
