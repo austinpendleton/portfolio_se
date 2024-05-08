@@ -48,7 +48,6 @@ const Projects = () => {
               <li className="golf__list-item">HTML</li>
               <li className="golf__list-item">CSS</li>
               <li className="golf__list-item">Express</li>
-              <li className="golf__list-item">Google Cloud</li>
             </ul>
           </div>
         </div>

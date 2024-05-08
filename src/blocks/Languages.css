@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 .languages {
   background-color: black;
@@ -13,8 +14,8 @@
   justify-content: center;
 }
 .languages__title-text {
-  font-family: "Playfair-Display", sans-serif;
-  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+  font-size: 70px;
   font-weight: 500;
   color: #ffeb99;
   margin-left: 80px;
