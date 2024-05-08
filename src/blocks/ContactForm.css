@@ -65,8 +65,8 @@ form {
   color: white;
   background-color: black;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  font-family: "Playfair-Display", sans-serif;
-  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  font-size: 25px;
   border-color: white;
 }
 .email__button:hover {

@@ -16,14 +16,25 @@ const About = () => {
 
         <div className="about__paragraph ">
           <p className="about__paragraph-text">
-            I'm currently based in the Salt Lake City area but originally from
-            near Portland, Oregon, where my love for sports and fitness began. I
-            pursued this passion at Oregon State University, earning a degree in
-            Kinesiology. After gaining four years of professional experience, I
-            felt a need for more creativity and consistent challenges, which led
-            me to discover coding. Realizing this was my calling, I opted for a
-            bootcamp over traditional university education to further my skills.
-            Now, I'm eager to contribute to cutting-edge innovation.
+            I'm a software engineer based in the Salt Lake City area with roots
+            tracing back to Portland, Oregon, where my passion for sports and
+            fitness first took flight. Graduating with a degree in Kinesiology
+            from Oregon State University provided me with a solid understanding
+            of human movement and laid the groundwork for my journey into the
+            world of software engineering.
+          </p>
+          <p className="about__paragraph-text">
+            Over four years of professional experience, I've cultivated a knack
+            for problem-solving and a keen eye for detail. However, my thirst
+            for creativity and a desire for consistent challenges led me to
+            discover coding. Recognizing this as my true calling, I embarked on
+            a coding bootcamp journey to further sharpen my skills.
+          </p>
+          <p className="about__paragraph-text">
+            Now, armed with a diverse background and a fresh perspective, I'm
+            eager to contribute to cutting-edge innovation in the tech industry.
+            I thrive on tackling complex problems and am excited about the
+            possibilities that lie ahead in this dynamic field.
           </p>
         </div>
       </div>

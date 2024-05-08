@@ -114,7 +114,7 @@
 .repo__link {
   font-family: "Russo One", sans-serif;
   font-size: 20px;
-  color: white;
+  color: #ffeb99;
   margin-bottom: 20px;
   width: max-content;
 }
@@ -122,6 +122,9 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+.link__to-repo:hover {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 768px) {
