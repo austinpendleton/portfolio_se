@@ -9,7 +9,6 @@
   background-size: cover;
   max-height: 140px;
   height: 100vh;
-  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -83,7 +82,15 @@
   right: 22px;
   background-color: white;
   border-radius: 10px;
-  font-family: "Playfair-Display", sans-serif;
+  font-family: "Russo One", sans-serif;
+  font-size: 15px;
+}
+@media screen and (min-width: 769px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
@@ -103,7 +110,7 @@
   }
 
   .header__logo-image {
-    width: 120px; /* Adjust logo size for mobile */
+    width: 160px; /* Adjust logo size for mobile */
   }
 
   .header__nav {
@@ -120,7 +127,8 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    bottom: 100px;
+    bottom: 80px;
+    padding: 0;
   }
 
   .resume__button {
@@ -129,7 +137,7 @@
     width: 70px;
   }
   .resume__button-container {
-    padding-left: 280px;
+    padding-left: 250px;
   }
 }
 

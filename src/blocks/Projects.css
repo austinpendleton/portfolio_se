@@ -2,11 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 .projects {
-  max-height: 1200px;
-  height: 160vh;
+  max-height: none;
+  height: auto;
   background-color: black;
   background-position: center;
   background-size: cover;
+  padding-bottom: 50px;
 }
 
 .projects__title {

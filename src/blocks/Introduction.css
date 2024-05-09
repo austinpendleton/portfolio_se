@@ -155,7 +155,8 @@
 
   .title__wrapper {
     top: 300px; /* Adjust positioning for smaller screens */
-    margin-left: 0; /* Remove left margin for centering */
+    margin-left: 60px;
+    margin-top: 15px; /* Remove left margin for centering */
     text-align: center; /* Center the text */
   }
 

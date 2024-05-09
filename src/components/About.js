@@ -24,14 +24,15 @@ const About = () => {
             world of software engineering.
           </p>
           <p className="about__paragraph-text">
-            Over four years of professional experience, I've cultivated a knack
-            for problem-solving and a keen eye for detail. However, my thirst
-            for creativity and a desire for consistent challenges led me to
-            discover coding. Recognizing this as my true calling, I embarked on
-            a coding bootcamp journey to further sharpen my skills.
+            Over four years of professional experience has helped me cultivate a
+            knack for problem-solving and develop a keen eye for detail.
+            However, my thirst for creativity and a desire for consistent
+            challenges led me to discover coding. Recognizing this as my true
+            calling I embarked on a coding bootcamp journey to further sharpen
+            my skills.
           </p>
           <p className="about__paragraph-text">
-            Now, armed with a diverse background and a fresh perspective, I'm
+            Now, armed with a diverse background and a fresh perspective I'm
             eager to contribute to cutting-edge innovation in the tech industry.
             I thrive on tackling complex problems and am excited about the
             possibilities that lie ahead in this dynamic field.

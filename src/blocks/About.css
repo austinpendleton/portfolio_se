@@ -3,9 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 .about {
-  max-height: 2000px;
-  height: 120vh;
+  padding-bottom: 50px;
   background-color: black;
+  max-height: none;
+  height: auto;
 }
 .about__container {
   display: flex;
@@ -82,14 +83,16 @@
 
   .about__container {
     flex-direction: column; /* Stack items vertically on smaller screens */
+    display: flex;
+    align-items: center;
   }
 
   .about__image {
-    height: auto; /* Allow image to scale with width */
-    width: 100%; /* Occupy full width of container */
+    height: 400px; /* Allow image to scale with width */
+    width: 300px; /* Occupy full width of container */
     margin-right: 0; /* Remove right margin on smaller screens */
     margin-left: 0; /* Remove left margin on smaller screens */
     margin-bottom: 20px; /* Add some space below the image */
-    border-radius: 0; /* Remove border-radius */
+    border-radius: 100px; /* Remove border-radius */
   }
 }
