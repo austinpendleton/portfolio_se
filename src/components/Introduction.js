@@ -1,6 +1,7 @@
 import React from "react";
 import "../blocks/Introduction.css";
-import nobackgroundpic from "../images/nobackgroundpic.png";
+import portfolioheadshot from "../images/portfolio_headshot.png";
+import portfolioheadshotbackground from "../images/headshot_withbackground.jpeg";
 
 const Introduction = () => {
   return (
@@ -9,11 +10,11 @@ const Introduction = () => {
         <h1 className="name__text">Austin Pendleton</h1>
       </div>
       <div className="introduction__picture">
-        {/* <img
-          src={nobackgroundpic}
+        <img
+          src={portfolioheadshotbackground}
           alt="Myself"
           className="introduction__image"
-        /> */}
+        />
       </div>
       <div className="title__wrapper">
         <h2 className="title__text">Software Engineer</h2>
