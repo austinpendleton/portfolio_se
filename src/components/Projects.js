@@ -19,7 +19,7 @@ const Projects = () => {
             className="link__to-repo"
             href="https://github.com/austinpendleton/se_project_react"
           >
-            <p className="repo__link">Link to Repo</p>
+            <p className="repo__link">Link to Repository</p>
           </a>
           <div className="projects__wtwr-paragraph">
             <p className="projects__wtwr-paragraph-text">
@@ -44,7 +44,7 @@ const Projects = () => {
               className="link__to-repo"
               href="https://github.com/austinpendleton/hit_that_far_golf"
             >
-              <p className="repo__link">Link to Repo</p>
+              <p className="repo__link">Link to Repository</p>
             </a>
           </div>
           <div className="projects__golf-paragraph">
@@ -69,7 +69,7 @@ const Projects = () => {
               className="link__to-repo"
               href="https://github.com/jahorwitz/slopopedia"
             >
-              <p className="repo__link">Link to Repo</p>
+              <p className="repo__link">Link to Repository</p>
             </a>
           </div>
           <div className="projects__slop-paragraph">
