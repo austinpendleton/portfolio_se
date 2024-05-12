@@ -47,19 +47,15 @@
 .title__text {
   font-family: "Russo One", sans-serif;
   font-size: 40px;
-
   color: #ffeb99;
-  overflow: hidden; /* Ensures the text doesn't overflow */
-
-  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden;
+  white-space: nowrap;
   animation: typing 5s steps(40, end) infinite;
 }
 .title__text::after {
-  content: " "; /* Create a pseudo-element to represent the cursor */
+  content: " ";
   display: inline-block;
-
   height: 1em;
-
   animation: typing 5s steps(40, end) infinite; /* Adjust the duration as needed */
 }
 @keyframes typing {
@@ -97,77 +93,34 @@
   /* color: #89323b; */
 }
 
-/* Arrow */
-
-.arrow {
-  position: relative;
-  margin-left: 200px;
-  width: 100px;
-}
-
-.arrow .curve {
-  border: 6px solid black;
-  border-color: transparent transparent transparent black;
-  height: 360px;
-  width: 1200px;
-  border-radius: 230px 0 0 150px;
-}
-
-.arrow .point {
-  position: absolute;
-  left: 35px;
-  top: 315px;
-}
-
-.arrow .point:before,
-.arrow .point:after {
-  border: 5px solid black;
-  height: 25px;
-  content: "";
-  position: absolute;
-}
-
-.arrow .point:before {
-  top: -11px;
-  left: -11px;
-  transform: rotate(-74deg);
-  -webkit-transform: rotate(-74deg);
-  -moz-transform: rotate(-74deg);
-  -ms-transform: rotate(-74deg);
-}
-
-.arrow .point:after {
-  top: -20px;
-  left: 5px;
-  transform: rotate(12deg);
-  -webkit-transform: rotate(12deg);
-  -moz-transform: rotate(12deg);
-  -ms-transform: rotate(12deg);
-}
-/* Example media query for smaller screens */
 @media screen and (max-width: 768px) {
   .introduction {
-    margin-top: 0; /* Remove top margin for smaller screens */
+    margin-top: 0;
+  }
+  .introduction__image {
+    max-width: 250px;
+    top: 200px;
+    border-radius: 50px;
   }
 
   .name__wrapper {
-    top: 150px; /* Adjust positioning for smaller screens */
-    margin-left: 0; /* Remove left margin for centering */
-    text-align: center; /* Center the text */
+    top: 150px;
+    margin-left: 0;
+    text-align: center;
   }
 
   .title__wrapper {
-    top: 300px; /* Adjust positioning for smaller screens */
+    top: 300px;
     margin-left: 60px;
-    margin-top: 15px; /* Remove left margin for centering */
-    text-align: center; /* Center the text */
+    margin-top: 15px;
+    text-align: center;
   }
 
   .name__text {
-    font-size: 60px; /* Adjust font size for smaller screens */
+    font-size: 60px;
   }
 
   .title__text {
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 30px;
   }
 }

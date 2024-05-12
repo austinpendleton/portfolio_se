@@ -129,9 +129,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .projects__title-text {
+    font-size: 50px;
+  }
   .projects__container {
     flex-direction: column;
     align-items: center;
+  }
+  .image__title {
+    font-size: 30px;
   }
 
   .projects__wtwr-container,
@@ -139,12 +145,6 @@
   .projects__slop-container {
     width: 90%;
     margin-bottom: 20px;
-  }
-
-  .wtwr__list,
-  .golf__list,
-  .slop__list {
-    flex-direction: row;
   }
 
   .wtwr__list-item,

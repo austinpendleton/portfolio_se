@@ -17,9 +17,6 @@
   justify-content: center;
 }
 .about__paragraph {
-  /* display: flex;
-  justify-content: center;
-  width: 50%; */
   flex: 1;
 }
 .about__title-text {
@@ -49,8 +46,6 @@
 }
 
 .things-about > .content-about h1 {
-  /* font-family: "Arial", sans-serif;
-    text-transform: uppercase; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -58,7 +53,6 @@
   margin: auto;
   position: absolute;
   height: 150px;
-  /* color: #89323b; */
 }
 .about__image {
   height: 600px;
@@ -68,31 +62,31 @@
   margin-left: 150px;
   margin-top: 60px;
 }
-/* Example media query for smaller screens */
+
 @media screen and (max-width: 768px) {
   .about__title-text {
-    font-size: 40px; /* Adjust font size for smaller screens */
+    font-size: 50px;
   }
 
   .about__paragraph-text {
-    font-size: 18px; /* Adjust font size for smaller screens */
-    line-height: 30px; /* Adjust line height for smaller screens */
-    margin-right: 20px; /* Adjust margins for smaller screens */
-    margin-left: 20px; /* Adjust margins for smaller screens */
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .about__container {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column;
     display: flex;
     align-items: center;
   }
 
   .about__image {
-    height: 400px; /* Allow image to scale with width */
-    width: 300px; /* Occupy full width of container */
-    margin-right: 0; /* Remove right margin on smaller screens */
-    margin-left: 0; /* Remove left margin on smaller screens */
-    margin-bottom: 20px; /* Add some space below the image */
-    border-radius: 100px; /* Remove border-radius */
+    height: 400px;
+    width: 300px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    border-radius: 100px;
   }
 }
