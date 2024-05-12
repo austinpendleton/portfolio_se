@@ -110,7 +110,7 @@
   }
 
   .header__logo-image {
-    width: 160px; /* Adjust logo size for mobile */
+    width: 160px;
   }
 
   .header__nav {
@@ -118,7 +118,7 @@
   }
 
   .header__links {
-    padding: 10px 25px; /* Adjust padding for mobile */
+    padding: 10px 25px;
   }
 
   .header__social {
@@ -132,13 +132,11 @@
   }
 
   .resume__button {
-    padding: 0px 0px; /* Adjust padding for mobile */
-    margin-right: 0; /* Reset margin */
+    padding: 0px 0px;
+    margin-right: 0;
     width: 70px;
   }
   .resume__button-container {
     padding-left: 250px;
   }
 }
-
-/* Other styles remain unchanged */

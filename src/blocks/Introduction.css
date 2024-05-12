@@ -81,8 +81,6 @@
 }
 
 .things > .content h1 {
-  /* font-family: "Arial", sans-serif;
-  text-transform: uppercase; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -90,7 +88,6 @@
   margin: auto;
   position: absolute;
   height: 150px;
-  /* color: #89323b; */
 }
 
 @media screen and (max-width: 768px) {

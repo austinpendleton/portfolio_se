@@ -25,11 +25,7 @@ const Languages = () => {
       <div className="languages__title">
         <h1 className="languages__title-text">Skills</h1>
       </div>
-      {/* <div className="languages__paragraph">
-        <p className="languages__paragraph-text">
-          These are some of the programs I am comfortable using...
-        </p>
-      </div> */}
+
       <div className="languages__list">
         <img src={html} alt="HTML" className="languages__images" />
 

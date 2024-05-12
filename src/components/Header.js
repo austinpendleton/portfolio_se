@@ -1,17 +1,9 @@
-import React, { useEffect, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link,
-  useLocation,
-} from "react-router-dom";
+import React from "react";
 import "../blocks/Header.css";
-import instagram from "../images/instagram-logo.svg";
 import linkedin from "../images/linkedin-logo.svg";
 import github from "../images/github-logo.svg";
-import gmail from "../images/gmail-logo.svg";
 import aplogo from "../images/ap-logo.svg";
+
 const Header = () => {
   return (
     <header className="header">

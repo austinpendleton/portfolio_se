@@ -1,10 +1,7 @@
 import React from "react";
 import "../blocks/About.css";
-import osu from "../images/osu-logo.png";
-import physiq from "../images/physiq.png";
-import seahawks from "../images/seahawks-logo.png";
-
 import fenway from "../images/fenway-edited.jpeg";
+
 const About = () => {
   return (
     <section className="about" id="about">
