@@ -75,12 +75,12 @@ form {
 input::placeholder {
   font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
-  color: black;
+  color: gray;
 }
 textarea::placeholder {
   font-family: "Playfair-Display", sans-serif;
   font-size: 25px;
-  color: black;
+  color: gray;
 }
 input {
   font-family: "Playfair-Display", sans-serif;

@@ -3,8 +3,19 @@ import "../blocks/Header.css";
 import linkedin from "../images/linkedin-logo.svg";
 import github from "../images/github-logo.svg";
 import aplogo from "../images/ap-logo.svg";
+import myresume from "../../src/Resume5.24.pdf";
 
 const Header = () => {
+  const handleResumeDownload = () => {
+    const link = document.createElement("a");
+
+    link.href = myresume;
+
+    link.download = "AustinPendletonResume.pdf";
+
+    link.click();
+  };
+
   return (
     <header className="header">
       <a className="header__logo" href="#intro">
@@ -45,7 +56,9 @@ const Header = () => {
           <img className="github__logo" alt="GitHub" src={github} />
         </a>
         <div className="resume__button-container">
-          <button className="resume__button">Resume</button>
+          <button className="resume__button" onClick={handleResumeDownload}>
+            Resume
+          </button>
         </div>
       </div>
     </header>
