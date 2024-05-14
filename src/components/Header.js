@@ -52,6 +52,7 @@ const Header = () => {
           className=""
           href="https://github.com/austinpendleton"
           target="_blank"
+          rel="noreferrer"
         >
           <img className="github__logo" alt="GitHub" src={github} />
         </a>
