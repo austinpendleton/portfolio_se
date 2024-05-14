@@ -45,6 +45,7 @@ const Header = () => {
           className=""
           href="https://www.linkedin.com/in/austinp-tech/"
           target="_blank"
+          rel="noreferrer"
         >
           <img className="linkedin__logo" alt="LinkedIn" src={linkedin} />
         </a>
