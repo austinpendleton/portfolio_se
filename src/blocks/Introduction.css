@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   max-height: 2000px;
-  height: 90vh;
+  height: 110vh;
 }
 .introduction__image {
   position: relative;
@@ -98,7 +98,7 @@
     max-width: 250px;
     top: 200px;
     border-radius: 50px;
-    left: -60px;
+    left: -58px;
   }
 
   .name__wrapper {
@@ -109,7 +109,7 @@
 
   .title__wrapper {
     top: 300px;
-    right: 46px;
+    right: 43px;
     margin-left: 60px;
     margin-top: 15px;
     text-align: center;
