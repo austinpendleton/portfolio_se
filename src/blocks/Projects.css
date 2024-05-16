@@ -152,6 +152,11 @@
   .slop__list-item {
     margin-right: 20px;
   }
+  .wtwr__image,
+  .golf__image,
+  .slop__image {
+    height: 150px;
+  }
 
   .projects__wtwr-paragraph,
   .projects__golf-paragraph,
