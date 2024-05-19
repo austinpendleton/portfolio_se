@@ -114,10 +114,10 @@
 
   .title__wrapper {
     top: 300px;
-    display: flex;
-    justify-content: center;
+    right: 46px;
     margin-left: 60px;
     margin-top: 15px;
+    text-align: center;
   }
 
   .name__text {
