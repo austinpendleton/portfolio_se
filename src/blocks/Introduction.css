@@ -92,14 +92,13 @@
 
 @media screen and (max-width: 768px) {
   .introduction {
-    margin-top: 0;
-    margin-bottom: 0;
+    height: 90vh;
   }
   .introduction__image {
     max-width: 250px;
     top: 200px;
     border-radius: 50px;
-    left: -50px;
+    left: -40px;
   }
 
   .name__wrapper {

@@ -52,6 +52,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .languages {
+    height: 90vh;
+  }
   .languages__title-text {
     font-size: 50px;
     margin-left: 0;
