@@ -3,7 +3,7 @@ import "../blocks/Header.css";
 import linkedin from "../images/linkedin-logo.svg";
 import github from "../images/github-logo.svg";
 import aplogo from "../images/ap-logo.svg";
-import myresume from "../../src/ResumeFinal.pdf";
+import myresume from "../../src/Resume 2.0.pdf";
 
 const Header = () => {
   const handleResumeDownload = () => {
