@@ -2,20 +2,16 @@
 
 This app is the first rendition of my portfolio, I am looking forward to continuing to build on this site as my skills continue to develop.
 
-# About me
+Currently the app contains these sections:
 
-
-# Projects
-
-
-# Skills
-
-
-# Contact
+- About me
+- Projects
+- Skills
+- Contact form
 
 
 
-## APP IS HOSTED AT 
+## App Is Hosted Here
 
 [austinpendleton.com](https://austinpendleton.com)
 
@@ -26,4 +22,7 @@ This app is the first rendition of my portfolio, I am looking forward to continu
 
 
 # Programs used 
-React, CSS, and Netlify to host
+- React
+- CSS
+- JavaScript
+- Netlify to host
