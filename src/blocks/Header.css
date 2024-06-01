@@ -8,12 +8,12 @@
   background-position: center;
   background-size: cover;
   max-height: 140px;
-  height: 100vh;
+  height: 140px;
   top: 0px;
   left: 0px;
   width: 100%;
   z-index: 1;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .header__logo {
