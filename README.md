@@ -26,3 +26,4 @@ Currently the app contains these sections:
 - CSS
 - JavaScript
 - Netlify to host
+- VScode to write
