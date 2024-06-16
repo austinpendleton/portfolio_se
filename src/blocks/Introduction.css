@@ -9,6 +9,7 @@
   max-height: 2000px;
   height: 120vh;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .introduction__image {
   position: relative;
